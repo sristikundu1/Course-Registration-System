@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import './Courses.css'
 import Course from "../Course/Course";
+import { toast } from 'react-toastify';
 
 const Courses = () => {
 
@@ -22,7 +23,7 @@ const Courses = () => {
         let count = course.course_duration;
      
         if (isExist) {
-            return alert('already added');
+            return toast('This course has been already added');
         }
         else {
             selectedCourses.forEach((item) => {
@@ -33,7 +34,7 @@ const Courses = () => {
 
             const creditRemaining = 20 - count;
             if (count > 20) {
-                return alert('you cannot add any course');
+                return toast('you cannot add any course');
             }
             else {
                 setTotalCredit(count);
