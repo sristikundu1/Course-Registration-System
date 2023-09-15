@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_img": "https://i.ibb.co/LSySLy7/Computer-Science.jpg",
+      "course_name": "Computer Science Fundamentals",
+      "course_details": "Learn the basics of computer science, including algorithms and data structures.",
+      "course_price": 49.99,
+      "course_duration": 4
+    },
+    {
+      "id": 2,
+      "course_img": "https://i.ibb.co/qFZ1mqY/web-development.jpg",
+      "course_name": "Web Development with HTML and CSS",
+      "course_details": "Create websites and web applications using HTML and CSS.",
+      "course_price": 79.99,
+      "course_duration": 6
+    },
+    {
+      "id": 3,
+      "course_img": "https://i.ibb.co/hFCZLBH/HD-wallpaper-digital-marketing-consulting-services-strait-web-solutions-seo-marketing.jpg",
+      "course_name": "Digital Marketing for Tech Professionals",
+      "course_details": "Master digital marketing strategies tailored for the tech industry.",
+      "course_price": 59.99,
+      "course_duration": 5
+    },
+    {
+      "id": 4,
+      "course_img": "https://i.ibb.co/Jscsc6N/1-Yl-Kw6-C-4-Aa-XMbhu5-Hq1n-Q-2.png",
+      "course_name": "Machine Learning and AI Foundations",
+      "course_details": "Explore the fundamentals of machine learning and artificial intelligence.",
+      "course_price": 69.99,
+      "course_duration": 7
+    },
+    {
+      "id": 5,
+      "course_img": "https://i.ibb.co/rZtZMCk/Rectangle-2-5.png",
+      "course_name": "Software Engineering Principles",
+      "course_details": "Learn software engineering best practices and methodologies.",
+      "course_price": 54.99,
+      "course_duration": 4
+    },
+    {
+      "id": 6,
+      "course_img": "https://i.ibb.co/QMb5Lfj/React-Native-Is-the-Future-of-Hybrid-Mobile-Apps-Development.png",
+      "course_name": "Mobile App Development with React Native",
+      "course_details": "Build cross-platform mobile apps using React Native.",
+      "course_price": 89.99,
+      "course_duration": 8
+    },
+    {
+      "id": 7,
+      "course_img": "https://i.ibb.co/zQk2XK8/istockphoto-1289956604-612x612.jpg",
+      "course_name": "Computer Networks and Security",
+      "course_details": "Understand computer networks and cybersecurity principles.",
+      "course_price": 44.99,
+      "course_duration": 3
+    },
+    {
+      "id": 8,
+      "course_img": "https://i.ibb.co/pRrrWTM/data-science-768x384.png",
+      "course_name": "Data Science for Engineers",
+      "course_details": "Apply data science techniques to engineering problems.",
+      "course_price": 49.99,
+      "course_duration": 4
+    },
+    {
+      "id": 9,
+      "course_img": "https://i.ibb.co/JK9jKnV/0-d-Vt-r-PPjc2-Eb-QTGD.png",
+      "course_name": "Artificial Intelligence in Engineering",
+      "course_details": "Apply AI concepts to engineering applications.",
+      "course_price": 59.99,
+      "course_duration": 5
+    }
+  ]
+  
