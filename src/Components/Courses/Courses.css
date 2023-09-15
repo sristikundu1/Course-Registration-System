@@ -1,8 +1,8 @@
 .card {
-    width: 280px;
+    width: 260px;
     height: 390px;
     border: 1px solid white;
-    margin: 12px;
+    margin: 10px;
     padding: 16px;
     border-radius: 12px;
     background-color: white;
@@ -12,7 +12,7 @@
 
 .photo {
     border-radius: 8px;
-    width: 280px;
+    width: 260px;
     height: 144px;
 }
 
@@ -24,7 +24,7 @@
 .info {
     display: flex;
     justify-content: space-between;
-    gap: 35px;
+    gap: 15px;
     color: slategray;
     font-size: 16px;
     position: absolute;
@@ -45,7 +45,7 @@
 }
 
 .card-btn {
-    width: 280px;
+    width: 260px;
     height: 40px;
     color: white;
     border-radius: 8px;
@@ -58,8 +58,18 @@
 
 .card-container{
     width: 900px;
-    margin: 10px 25px;
+    margin: 0 25px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
    
+}
+
+.home-container{
+    display: flex;
+    width: 1300px;
+    gap: 20px;
+}
+
+.cart{
+    width: 400px;
 }

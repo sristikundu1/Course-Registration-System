@@ -1,0 +1,27 @@
+.cart-container{
+    width: 300px;
+    background-color: white;
+    border: 1px solid white;
+    margin: 12px;
+    padding: 16px;
+    /* margin-right: 35px; */
+    border-radius: 12px;
+}
+
+.remainig{
+    color: #2F80ED;
+}
+
+.list-item{
+    color: rgba(28, 27, 27, 0.60);
+    padding-left: 15px;
+}
+
+.credit-hour{
+    color: rgba(28, 27, 27, 0.80);
+}
+
+.price{
+    color: rgba(28, 27, 27, 0.80);
+    font-size: 16px;
+}
