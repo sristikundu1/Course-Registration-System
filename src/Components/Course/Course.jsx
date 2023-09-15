@@ -1,6 +1,6 @@
 import './Course.css'
 
-const Course = ({selectedCourses,Remainig,TotalCredit}) => {
+const Course = ({selectedCourses,Remainig,TotalCredit,TotalPrice}) => {
    
     return (
         <div  className="cart-container">
@@ -16,7 +16,7 @@ const Course = ({selectedCourses,Remainig,TotalCredit}) => {
             <p className='credit-hour'>Total Credit Hour : {TotalCredit}</p>
          
             <hr />
-            <p className='price'>Total Price : USD </p>
+            <p className='price'>Total Price : {TotalPrice} USD </p>
               
         </div>
     );

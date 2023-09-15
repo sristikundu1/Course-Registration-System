@@ -10,6 +10,7 @@ const Courses = () => {
     const [selectedCourses, setSelectedCourses] = useState([]);
     const [Remainig, setRemaining] = useState(20);
     const [TotalCredit, setTotalCredit] = useState(0);
+    const [TotalPrice, setTotalPrice] = useState(0);
 
 
     useEffect(() => {
@@ -21,6 +22,7 @@ const Courses = () => {
     const handleSelectCourse = (course) => {
         const isExist = selectedCourses.find((item) => item.id == course.id);
         let count = course.course_duration;
+        let total = course.course_price;
      
         if (isExist) {
             return toast('This course has been already added');
@@ -28,7 +30,7 @@ const Courses = () => {
         else {
             selectedCourses.forEach((item) => {
                 count += item.course_duration;
-               
+                total += item.course_price;
 
             });
 
@@ -39,7 +41,7 @@ const Courses = () => {
             else {
                 setTotalCredit(count);
                 setRemaining(creditRemaining);
-              
+                setTotalPrice(total);
                 setSelectedCourses([...selectedCourses, course]);
             }
 
@@ -82,7 +84,8 @@ const Courses = () => {
                 <div className='cart'>
                     <Course selectedCourses={selectedCourses}
                         Remainig={Remainig}
-                        TotalCredit={TotalCredit} >
+                        TotalCredit={TotalCredit}
+                        TotalPrice={TotalPrice} >
                     </Course>
                 </div>
 
