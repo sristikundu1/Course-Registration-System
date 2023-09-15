@@ -2,6 +2,9 @@ import './Course.css'
 import PropTypes from 'prop-types'; 
 
 const Course = ({selectedCourses,Remainig,TotalCredit,TotalPrice}) => {
+    let value =  selectedCourses.map((course,idx) => (
+    <li   key = {idx}>{course.course_name}</li>
+      ));
    
     return (
         <div  className="cart-container">
@@ -9,9 +12,9 @@ const Course = ({selectedCourses,Remainig,TotalCredit,TotalPrice}) => {
             <hr />
             <h2>Course Name</h2>
             {
-               selectedCourses.map((course,idx) => ( <ol className='list-item'  key = {idx}> 
-                 <li>{course.course_name}</li></ol>
-                   ))
+              <ol className='list-item'>
+                {value}
+              </ol>
             }
             <hr />
             <p className='credit-hour'>Total Credit Hour : {TotalCredit}</p>
