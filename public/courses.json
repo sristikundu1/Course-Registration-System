@@ -33,11 +33,11 @@
     },
     {
       "id": 5,
-      "course_img": "https://i.ibb.co/rZtZMCk/Rectangle-2-5.png",
-      "course_name": "Software Engineering Principles",
-      "course_details": "Learn software engineering best practices and methodologies.",
-      "course_price": 54.99,
-      "course_duration": 4
+      "course_img": "https://i.ibb.co/JK9jKnV/0-d-Vt-r-PPjc2-Eb-QTGD.png",
+      "course_name": "Artificial Intelligence in Engineering",
+      "course_details": "Apply AI concepts to engineering applications.",
+      "course_price": 59.99,
+      "course_duration": 5
     },
     {
       "id": 6,
@@ -65,11 +65,11 @@
     },
     {
       "id": 9,
-      "course_img": "https://i.ibb.co/JK9jKnV/0-d-Vt-r-PPjc2-Eb-QTGD.png",
-      "course_name": "Artificial Intelligence in Engineering",
-      "course_details": "Apply AI concepts to engineering applications.",
-      "course_price": 59.99,
-      "course_duration": 5
+      "course_img": "https://i.ibb.co/rZtZMCk/Rectangle-2-5.png",
+      "course_name": "Software Engineering Principles",
+      "course_details": "Learn software engineering best practices and methodologies.",
+      "course_price": 54.99,
+      "course_duration": 4
     }
   ]
   

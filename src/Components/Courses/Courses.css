@@ -1,0 +1,65 @@
+.card {
+    width: 280px;
+    height: 390px;
+    border: 1px solid white;
+    margin: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+    position: relative;
+}
+
+.photo {
+    border-radius: 8px;
+    width: 280px;
+    height: 144px;
+}
+
+.details {
+    color: slategray;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    color: slategray;
+    font-size: 16px;
+    position: absolute;
+    bottom: 70px;
+   
+}
+
+.card-item{
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+}
+
+.card-item img{
+    width: 24px;
+    height: 24px;
+   
+}
+
+.card-btn {
+    width: 280px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #2F80ED;
+    background: #2F80ED;
+    position: absolute;
+    bottom: 20px;
+    font-size: 18px;
+}
+
+.card-container{
+    width: 900px;
+    margin: 10px 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}

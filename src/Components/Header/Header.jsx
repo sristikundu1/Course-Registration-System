@@ -1,9 +1,9 @@
-
+import './Header.css'
 
 const Header = () => {
     return (
         <div>
-            <h1>Course Registration</h1>
+            <h1 className="title-contenet">Course Registration</h1>
         </div>
     );
 };
