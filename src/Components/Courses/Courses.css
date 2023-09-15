@@ -73,3 +73,39 @@
 .cart{
     width: 400px;
 }
+
+/* small device  */
+@media screen and (max-width:576px){
+    .card-container{
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .home-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+    .cart{
+        width: auto;
+    }
+    
+}
+/* mediam device */
+@media screen and (min-width:576px) and (max-width:992px){
+    .card-container{
+        width: 600px;
+        margin: 0 25px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+    }
+    .home-container{
+        display: flex;
+        width: 900px;
+    }
+    .cart{
+        width: 300px;
+    }
+
+}

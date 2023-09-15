@@ -36,7 +36,7 @@ const Courses = () => {
 
             const creditRemaining = 20 - count;
             if (count > 20) {
-                return toast('you cannot add any course');
+                return toast('you cannot add this course');
             }
             else {
                 setTotalCredit(count);

@@ -1,4 +1,5 @@
 import './Course.css'
+import PropTypes from 'prop-types'; 
 
 const Course = ({selectedCourses,Remainig,TotalCredit,TotalPrice}) => {
    
@@ -22,4 +23,11 @@ const Course = ({selectedCourses,Remainig,TotalCredit,TotalPrice}) => {
     );
 };
 
+Course.propTypes = {
+    selectedCourses:PropTypes.object.isRequired,
+    Remainig:PropTypes.object.isRequired,
+    TotalCredit:PropTypes.object.isRequired,
+    TotalPrice:PropTypes.object.isRequired
+
+}
 export default Course;

@@ -19,9 +19,12 @@
 
 .credit-hour{
     color: rgba(28, 27, 27, 0.80);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .price{
     color: rgba(28, 27, 27, 0.80);
     font-size: 16px;
+    font-weight: 700;
 }
