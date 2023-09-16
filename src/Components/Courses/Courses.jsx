@@ -9,8 +9,8 @@ const Courses = () => {
     const [allCourses, setAllCourses] = useState([]);
     const [selectedCourses, setSelectedCourses] = useState([]);
     const [Remainig, setRemaining] = useState(20);
-    const [TotalCredit, setTotalCredit] = useState(0);
-    const [TotalPrice, setTotalPrice] = useState(0);
+    const [totalCredit, setTotalCredit] = useState(0);
+    const [totalPrice, setTotalPrice] = useState(0);
 
 
     useEffect(() => {
@@ -33,15 +33,16 @@ const Courses = () => {
                 total += item.course_price;
 
             });
+            let totalPriceValue = total.toFixed(2);
 
             const creditRemaining = 20 - count;
             if (count > 20) {
-                return toast('you cannot add this course');
+                return toast('This course may be exceed the credit limit of 20 please try again.');
             }
             else {
                 setTotalCredit(count);
                 setRemaining(creditRemaining);
-                setTotalPrice(total);
+                setTotalPrice(totalPriceValue);
                 setSelectedCourses([...selectedCourses, course]);
             }
 
@@ -64,11 +65,11 @@ const Courses = () => {
                             <div className='info'>
                                 <div className='card-item'>
                                     <img src="https://i.ibb.co/Y2MX66s/8666589-dollar-sign-icon.png" alt="" />
-                                    <p> Price:{course.course_price}</p>
+                                    <p> Price : {course.course_price}</p>
                                 </div>
                                 <div className='card-item'>
                                     <img src="https://i.ibb.co/NC0Sjf5/icons8-open-book-32.png" alt="" />
-                                    <p>Credit: {course.course_duration} hr</p>
+                                    <p>Credit : {course.course_duration}hr</p>
 
                                 </div>
 
@@ -84,8 +85,8 @@ const Courses = () => {
                 <div className='cart'>
                     <Course selectedCourses={selectedCourses}
                         Remainig={Remainig}
-                        TotalCredit={TotalCredit}
-                        TotalPrice={TotalPrice} >
+                        TotalCredit={totalCredit}
+                        TotalPrice={totalPrice} >
                     </Course>
                 </div>
 
